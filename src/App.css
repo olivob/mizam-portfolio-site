@@ -40,3 +40,7 @@
 .read-the-docs {
   color: #888;
 }
+
+.content {
+  margin-top: 4rem; /* Adjust this value based on the height of your header */
+}

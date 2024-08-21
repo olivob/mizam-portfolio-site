@@ -5,14 +5,16 @@ import Navigation from './components/Navigation/Navigation';
 
 const AppRouter = () => {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path ='/nav' element = {<Navigation/>}/>
-        {/* <Route path="/about" element={<About />} /> */}
-        {/* Add more routes as needed */}
-      </Routes>
-    </Router>
+    <div className="App">
+        <Router>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path ='/nav' element = {<Navigation/>}/>
+                {/* <Route path="/about" element={<About />} /> */}
+                {/* Add more routes as needed */}
+            </Routes>
+        </Router>
+    </div>
   );
 };
 

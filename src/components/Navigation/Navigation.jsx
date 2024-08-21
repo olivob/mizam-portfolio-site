@@ -1,15 +1,16 @@
 import React from "react";
 
-function Navigation(){
-    return (
-        <header className="navigation">
-            <nav>
-                <div className="about">
-                    About
-                </div>
-            </nav>
-        </header>
-    )
+function Navigation() {
+  return (
+    <nav>
+      <div className="center-nav-content">
+        <button className="nav-btn">About</button>
+        <button className="nav-btn">Portfolio</button>
+        <button className="nav-btn">Resume</button>
+        <button className="nav-btn">Connect with Me</button>
+      </div>
+    </nav>
+  );
 }
 
 export default Navigation;
